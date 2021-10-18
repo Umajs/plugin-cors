@@ -1,0 +1,37 @@
+{
+  "name": "@umajs/plugin-plugin-cors",
+  "version": "0.0.1",
+  "description": "跨域配置插件",
+  "author": "BubbleM",
+  "main": "lib/index.js",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Umajs/plugin-cors.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "app": "ts-node-dev --respawn tests/app.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/shelljs": "^0.8.7",
+    "@umajs/core": "^1.2.3",
+    "@umajs/router": "^1.2.3",
+    "koa": "^2.11.0",
+    "shelljs": "^0.8.3",
+    "ts-node": "^8.8.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
