@@ -1,5 +1,5 @@
 {
-  "name": "@umajs/plugin-plugin-cors",
+  "name": "@umajs/plugin-cors",
   "version": "0.0.1",
   "description": "跨域配置插件",
   "author": "BubbleM",
